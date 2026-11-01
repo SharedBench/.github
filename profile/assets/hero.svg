@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="350" viewBox="0 0 1280 350" role="img" aria-labelledby="title description">
+  <title id="title">SharedBench</title>
+  <desc id="description">Build useful things. Share what works. An open-source home for software, tools and ideas.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="0.52" stop-color="#101B2F"/>
+      <stop offset="1" stop-color="#15142A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.55" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#5366C7" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#5366C7" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1280" height="350" rx="26"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="350" fill="url(#background)"/>
+    <circle cx="1045" cy="155" r="338" fill="url(#glow)"/>
+    <g stroke="#96A8D0" stroke-opacity="0.075" stroke-width="1">
+      <path d="M0 70H1280 M0 140H1280 M0 210H1280 M0 280H1280"/>
+      <path d="M160 0V350 M320 0V350 M480 0V350 M640 0V350 M800 0V350 M960 0V350 M1120 0V350"/>
+    </g>
+    <rect x="75" y="57" width="39" height="4" rx="2" fill="url(#accent)"/>
+    <text x="128" y="65" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700" letter-spacing="2.6" fill="#8CB4D6">OPEN SOURCE / SHARED IDEAS</text>
+    <text x="75" y="170" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="73" font-weight="750" letter-spacing="-2" fill="#F8FAFC">SharedBench</text>
+    <text x="78" y="223" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="27" font-weight="400" fill="#D5E0F1">Build useful things. Share what works.</text>
+    <path d="M78 265H598" stroke="#50617C" stroke-width="1" opacity="0.7"/>
+    <text x="78" y="302" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" font-weight="500" letter-spacing="1.6" fill="#93A9C3">SOFTWARE  ·  TOOLS  ·  AI  ·  MORE</text>
+    <g transform="translate(1041 171)">
+      <circle r="120" fill="none" stroke="#748BB7" stroke-opacity="0.21" stroke-width="1.2"/>
+      <circle r="95" fill="none" stroke="#748BB7" stroke-opacity="0.14" stroke-width="1.2" stroke-dasharray="4 10"/>
+      <rect x="-82" y="-87" width="164" height="174" rx="28" fill="#132039" stroke="#6783AC" stroke-opacity="0.38" stroke-width="1.5"/>
+      <path d="M-46 -35L44 -51L30 48L-43 27Z" fill="none" stroke="#7A91BA" stroke-opacity="0.65" stroke-width="2.4"/>
+      <circle cx="-46" cy="-35" r="12" fill="#38BDF8"/>
+      <circle cx="44" cy="-51" r="12" fill="#A78BFA"/>
+      <circle cx="30" cy="48" r="12" fill="#E2E8F0"/>
+      <circle cx="-43" cy="27" r="12" fill="#60A5FA"/>
+      <path d="M-16 -11L-30 1L-16 13 M16 -11L30 1L16 13" fill="none" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6 -18L-6 20" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="-111" cy="-94" r="4" fill="#38BDF8" opacity="0.8"/>
+      <circle cx="117" cy="93" r="5" fill="#A78BFA" opacity="0.75"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1278" height="348" rx="25" fill="none" stroke="#40526F" stroke-opacity="0.65" stroke-width="2"/>
+</svg>
