@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://github.com/orgs/SharedBench/repositories"><strong>Explore repositories / 浏览项目</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://github.com/SharedBench/KnowKit">Start with KnowKit</a>
+  <a href="https://github.com/SharedBench/KnowKit">Explore NoviDock</a>
 </p>
 
 ---
@@ -44,17 +44,17 @@ We build what is useful, learn by making, and share what is ready. There is no f
 
 ### Featured project / 公开项目
 
-#### [KnowKit](https://github.com/SharedBench/KnowKit)
+#### [NoviDock](https://github.com/SharedBench/KnowKit) · 原 KnowKit（品牌迁移中）
 
-**Keep knowledge simple, traceable, and yours.**
+**A local-first workbench for files, knowledge and extensible tools.**
 
-基于 **Markdown + Git** 的轻量知识库规范与基础工具。支持人和 Agent 协作整理知识，重视可阅读性、可靠来源与可验证的修改记录。
+NoviDock 正在构建通用 Rust Core、命令行、内置 Simple Web、独立浏览器客户端和跨平台桌面端。知识整理只是起点，加密、文件处理和可组合工具也会逐步整合。
 
-A lightweight, Git-native knowledge toolkit with human-readable documentation and verifiable changes.
+The modular workbench is evolving from KnowKit: shared Rust foundations, a small built-in reader, an enhanced browser client and a Rust-backed desktop preview.
 
-**Available now:** 文档规范、知识库模板、基础 Python CLI（`init` / `check` / `index` / `search`）。其他进阶能力仍在开发或验证阶段。
+**Available as source today:** Rust Core + CLI（实验性加密兼容解密）、Markdown 基础工具、Simple Web、[独立 Web](https://github.com/SharedBench/KnowKit-Web)。桌面端目前是已通过 macOS 编译检查的开发预览，**尚未发布安装包或通过实际 GUI 验收**。
 
-[中文介绍](https://github.com/SharedBench/KnowKit#readme) · [English](https://github.com/SharedBench/KnowKit/blob/main/README_EN.md) · [Source](https://github.com/SharedBench/KnowKit)
+[项目介绍](https://github.com/SharedBench/KnowKit#readme) · [Rust 架构](https://github.com/SharedBench/KnowKit/blob/main/docs/NOVIDOCK_RUST.md) · [Desktop 预览](https://github.com/SharedBench/KnowKit/tree/main/apps/desktop)
 
 ### How we work / 我们坚持什么
 
